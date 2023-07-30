@@ -80,7 +80,7 @@ header > .navbar > .nav-menu > li > a {
 }
 
 /* HERO AREA  */
-#welcome-section {
+#about {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,7 +94,7 @@ header > .navbar > .nav-menu > li > a {
   margin: 0.5rem;
 }
 
-#welcome-section > h1 {
+#about > h1 {
   font-size: 61px;
 }
 
@@ -128,7 +128,7 @@ h2 {
 }
 
 /* PORTFOLIO AREA */
-#projects {
+#portfolio {
   padding-bottom: 4rem;
   border-top: 1px solid var(--gray);
 }
@@ -262,7 +262,7 @@ footer p {
 }
 
 @media screen and (max-width: 640px) {
-  #welcome-section h1 {
+  #about h1 {
     text-align: center;
     line-height: 4.5rem;
     font-size: 49px;
