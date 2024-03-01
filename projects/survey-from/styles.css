@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+  border: none;
+
+  font-family: "roboto", sans-serif;
+  font-size: 20px;
+
+  color: #222831;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+.text-center {
+  text-align: center;
+}
+
+h1 {
+  margin: 40px 0 0 0;
+  font-size: 48px;
+}
+
+p {
+  margin: 8px 0 0 0;
+}
+
+.survey-form {
+  background-color: #ffffff;
+  box-shadow: 0 4px 48px 4px rgba(57, 62, 70, 0.5);
+
+  max-width: 700px;
+  width: 40vw;
+  min-width: 350px;
+
+  margin: 40px auto 40px auto;
+  padding: 32px;
+
+  border-radius: 8px;
+  font-weight: 400;
+}
+
+form fieldset {
+  margin: 0 0 40px 0;
+}
+
+label {
+  display: block;
+}
+
+.mb-16 {
+  margin: 0 0 16px 0;
+}
+.mb-8 {
+  margin: 0 0 8px 0;
+}
+
+input,
+select,
+textarea {
+  display: block;
+  width: 100%;
+
+  margin: 12px 0 0 0;
+  padding: 4px;
+
+  border-radius: 8px;
+  border: 1.5px solid #222831;
+}
+
+.head2 {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.head2 span {
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.radio-checkbox {
+  width: 16px;
+  height: 16px;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+textarea {
+  min-height: 128px;
+  resize: none;
+}
+
+.submit-button {
+  background-color: #3f72af;
+  color: #f0f0f0;
+  display: block;
+
+  width: 100%;
+  height: 40px;
+
+  border-radius: 8px;
+  cursor: pointer;
+}
+.submit-button:hover {
+  background-color: #112d4e;
+}

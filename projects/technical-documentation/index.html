@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Technical Documentation Page</title>
+
+    <!-- Style & Font-->
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <main id="main-doc">
+      <!-- Sidebar -->
+      <nav id="navbar">
+        <header>
+          <h3>CSS</h3>
+        </header>
+
+        <ul class="nav-lists">
+          <li>
+            <a href="#CSS_Introduction" class="nav-link">CSS Introduction</a>
+          </li>
+          <li><a href="#Key_Resources" class="nav-link">Key resources</a></li>
+          <li><a href="#CSS_Examples" class="nav-link">CSS examples</a></li>
+          <li><a href="#Tutorials" class="nav-link">Tutorials</a></li>
+          <li><a href="#Reference" class="nav-link">Reference</a></li>
+          <li><a href="#Cookbook" class="nav-link">Cookbook</a></li>
+          <li>
+            <a href="#Tools_for_CSS_Development" class="nav-link"
+              >Tools for CSS Development</a
+            >
+          </li>
+          <li><a href="#Meta_bugs" class="nav-link">Meta bugs</a></li>
+          <li><a href="#See_also" class="nav-link">See also</a></li>
+          <li><a href="#" class="not-active">Link 1</a></li>
+          <li><a href="#" class="not-active">Link 2</a></li>
+          <li><a href="#" class="not-active">Link 3</a></li>
+          <li><a href="#" class="not-active">Link 4</a></li>
+          <li><a href="#" class="not-active">Link 5</a></li>
+          <li><a href="#" class="not-active">Link 6</a></li>
+          <li><a href="#" class="not-active">Link 7</a></li>
+          <li><a href="#" class="not-active">Link 8</a></li>
+          <li><a href="#" class="not-active">Link 9</a></li>
+          <li><a href="#" class="not-active">Link 10</a></li>
+          <li><a href="#" class="not-active">Link 11</a></li>
+          <li><a href="#" class="not-active">Link 12</a></li>
+          <li><a href="#" class="not-active">Link 13</a></li>
+          <li><a href="#" class="not-active">Link 14</a></li>
+          <li><a href="#" class="not-active">Link 15</a></li>
+          <li><a href="#" class="not-active">Link 16</a></li>
+          <li><a href="#" class="not-active">Link 17</a></li>
+          <li><a href="#" class="not-active">Link 18</a></li>
+          <li><a href="#" class="not-active">Link 19</a></li>
+          <li><a href="#" class="not-active">Last Link</a></li>
+        </ul>
+      </nav>
+
+      <!-- Section Content -->
+      <section class="main-content">
+        <section class="main-section" id="CSS_Introduction">
+          <header>
+            <h1>CSS Introduction</h1>
+          </header>
+
+          <p class="mt-24">
+            <b>Cascading Style Sheets (CSS)</b> is a
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/API/StyleSheet"
+              >stylesheet</a
+            >
+            language used to describe the presentation of a document written in
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+              >HTML</a
+            >
+            or
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/XML/XML_introduction"
+              >XML</a
+            >
+            (including XML dialects such as
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/SVG"
+              >SVG</a
+            >,
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Web/MathML"
+              >MathML</a
+            >
+            or
+            <a
+              target="_blank"
+              href="https://developer.mozilla.org/en-US/docs/Glossary/XHTML"
+              >XHTML</a
+            >). CSS describes how elements should be rendered on screen, on
+            paper, in speech, or on other media.
+          </p>
+
+          <p class="mt-24">
+            CSS is among the core languages of the <b>open web</b> and is
+            standardized across Web browsers according to
+            <a target="_blank" href="https://www.w3.org/Style/CSS/#specs"
+              >W3C specifications</a
+            >. Previously, the development of various parts of CSS specification
+            was done synchronously, which allowed the versioning of the latest
+            recommendations. You might have heard about CSS1, CSS2.1, or even
+            CSS3. There will never be a CSS3 or a CSS4; rather, everything is
+            now CSS without a version number.
+          </p>
+
+          <p class="mt-24">
+            After CSS 2.1, the scope of the specification increased
+            significantly and the progress on different CSS modules started to
+            differ so much, that it became more effective to
+            <a target="_blank" href="https://www.w3.org/Style/CSS/current-work"
+              >develop and release recommendations separately per module</a
+            >. Instead of versioning the CSS specification, W3C now periodically
+            takes a snapshot of
+            <a target="_blank" href="https://www.w3.org/TR/css/"
+              >the latest stable state of the CSS specification</a
+            >
+            and individual modules progress. CSS modules now have version
+            numbers, or levels, such as
+            <a target="_blank" href="https://drafts.csswg.org/css-color-5/"
+              >CSS Color Module Level 5</a
+            >
+            .
+          </p>
+        </section>
+
+        <section class="main-section" id="Key_Resources">
+          <header>
+            <h2>Key resources</h2>
+          </header>
+
+          <dl class="mt-24">
+            <dt>
+              <p>CSS Introduction</p>
+            </dt>
+            <dd class="pl-24 mt-8">
+              <p>
+                If you're new to web development, be sure to read our
+                <a
+                  target="_blank"
+                  href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics"
+                  >CSS basics</a
+                >
+                article to learn what CSS is and how to use it.
+              </p>
+            </dd>
+          </dl>
+
+          <dl class="mt-24">
+            <dt>
+              <p>CSS Tutorials</p>
+            </dt>
+            <dd class="pl-24 mt-8">
+              <p>
+                Our
+                <a
+                  target="_blank"
+                  href="https://developer.mozilla.org/en-US/docs/Learn/CSS"
+                  >CSS learning area</a
+                >
+                contains a wealth of tutorials to take you from beginner level
+                to proficiency, covering all the fundamentals.
+              </p>
+            </dd>
+          </dl>
+
+          <dl class="mt-24">
+            <dt>
+              <p>CSS Reference</p>
+            </dt>
+            <dd class="pl-24 mt-8">
+              <p>
+                Our
+                <a
+                  target="_blank"
+                  href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+                  >exhaustive CSS reference</a
+                >
+                for seasoned Web developers describes every property and concept
+                of CSS.
+              </p>
+            </dd>
+          </dl>
+
+          <div class="rect mt-24">
+            <h3>Looking to become a front-end web developer?</h3>
+            <p class="mt-24">
+              We have put together a course that includes all the essential
+              information you need to work towards your goal.
+            </p>
+            <button class="mt-24">
+              <a
+                target="_blank"
+                href="https://developer.mozilla.org/en-US/docs/Learn/Front-end_web_developer"
+                >Get started</a
+              >
+            </button>
+          </div>
+        </section>
+
+        <section class="main-section" id="CSS_Examples">
+          <header>
+            <h2>CSS Examples</h2>
+          </header>
+
+          <div class="code-container mt-24">
+            <div class="ptlr-24 pb-72">
+              <code id="color-white"
+                >/* CSS to change text and background color */</code
+              >
+              <code>example-selector { </code>
+              <div class="pl-32">
+                <code
+                  >background-color: #f0f0f0;
+                  <span id="color-white">/* Background color */</span></code
+                >
+                <code
+                  >color: #333;
+                  <span id="color-white">/* Text color */</span></code
+                >
+                <code
+                  >padding: 20px;
+                  <span id="color-white"
+                    >/* Padding to provide space around the text */</span
+                  >
+                </code>
+                <code
+                  >border: 1px solid #ccc;
+                  <span id="color-white">/* Border with solid color */</span>
+                </code>
+              </div>
+              <code>} </code>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-section" id="Tutorials">
+          <header>
+            <h2>Tutorials</h2>
+          </header>
+
+          <p class="mt-24">
+            Our CSS Learning Area features multiple modules that teach CSS from
+            the ground up — no previous knowledge required.
+          </p>
+
+          <dl class="mt-24">
+            <dt>
+              <p>CSS first steps</p>
+            </dt>
+            <dd class="pl-24 mt-8">
+              <p>
+                CSS (Cascading Style Sheets) is used to style and layout web
+                pages — for example, to alter the font, color, size, and spacing
+                of your content, split it into multiple columns, or add
+                animations and other decorative features. This module provides a
+                gentle beginning to your path towards CSS mastery with the
+                basics of how it works, what the syntax looks like, and how you
+                can start using it to add styling to HTML.
+              </p>
+            </dd>
+          </dl>
+
+          <dl class="mt-24">
+            <dt>
+              <p>CSS building blocks</p>
+            </dt>
+            <dd class="pl-24 mt-8">
+              <p>
+                This module carries on where CSS first steps left off — now
+                you've gained familiarity with the language and its syntax, and
+                got some basic experience with using it, it's time to dive a bit
+                deeper. This module looks at the cascade and inheritance, all
+                the selector types we have available, units, sizing, styling
+                backgrounds and borders, debugging, and lots more.
+              </p>
+              <p class="mt-24">
+                The aim here is to provide you with a toolkit for writing
+                competent CSS and help you understand all the essential theory,
+                before moving on to more specific disciplines like text styling
+                and CSS layout.
+              </p>
+            </dd>
+          </dl>
+
+          <dl class="mt-24">
+            <dt>
+              <p>CSS styling text</p>
+            </dt>
+            <dd class="pl-24 mt-8">
+              <p>
+                With the basics of the CSS language covered, the next CSS topic
+                for you to concentrate on is styling text — one of the most
+                common things you'll do with CSS. Here we look at text styling
+                fundamentals, including setting font, boldness, italics, line
+                and letter spacing, drop shadows, and other text features. We
+                round off the module by looking at applying custom fonts to your
+                page, and styling lists and links.
+              </p>
+            </dd>
+          </dl>
+
+          <dl class="mt-24">
+            <dt>
+              <p>CSS layout</p>
+            </dt>
+            <dd class="pl-24 mt-8">
+              <p>
+                At this point we've already looked at CSS fundamentals, how to
+                style text, and how to style and manipulate the boxes that your
+                content sits inside. Now it's time to look at how to place your
+                boxes in the right place in relation to the viewport, and to
+                each other. We have covered the necessary prerequisites so we
+                can now dive deep into CSS layout, looking at different display
+                settings, modern layout tools like flexbox, CSS grid, and
+                positioning, and some of the legacy techniques you might still
+                want to know about.
+              </p>
+            </dd>
+          </dl>
+
+          <dl class="mt-24">
+            <dt>
+              <p>Use CSS to solve common problems</p>
+            </dt>
+            <dd class="pl-24 mt-8">
+              <p>
+                This module provides links to sections of content explaining how
+                to use CSS to solve common problems when creating a web page.
+              </p>
+            </dd>
+          </dl>
+        </section>
+
+        <section class="main-section" id="Reference">
+          <header>
+            <h2>Reference</h2>
+          </header>
+
+          <ul class="mt-24" id="ul-lists">
+            <li class="first-li">
+              CSS reference: This exhaustive reference for seasoned Web
+              developers describes every property and concept of CSS.
+            </li>
+            <li>CSS key concepts:</li>
+
+            <ul>
+              <li>The syntax and forms of the language</li>
+              <li>Specificity, inheritance, and the Cascade</li>
+              <li>CSS units and values and functional notations</li>
+              <li>Box model and margin collapse</li>
+              <li>The containing block</li>
+              <li>Stacking and block-formatting contexts</li>
+              <li>Initial, computed, used, and actual values</li>
+              <li>CSS shorthand properties</li>
+              <li>CSS Flexible Box Layout</li>
+              <li>CSS Grid Layout</li>
+              <li>CSS selectors</li>
+              <li>Media queries</li>
+              <li>Animation</li>
+            </ul>
+          </ul>
+        </section>
+
+        <section class="main-section" id="Cookbook">
+          <header>
+            <h2>Cookbook</h2>
+          </header>
+          <p class="mt-24">
+            The CSS layout cookbook aims to bring together recipes for common
+            layout patterns, things you might need to implement in your sites.
+            In addition to providing code you can use as a starting point in
+            your projects, these recipes highlight the different ways layout
+            specifications can be used and the choices you can make as a
+            developer.
+          </p>
+        </section>
+
+        <section class="main-section" id="Tools_for_CSS_Development">
+          <header>
+            <h2>Tools for CSS Development</h2>
+          </header>
+
+          <ul class="mt-24" id="ul-lists">
+            <li class="first-li">
+              You can use the W3C CSS Validation Service to check if your CSS is
+              valid. This is an invaluable debugging tool.
+            </li>
+            <li>
+              Firefox Developer Tools lets you view and edit a page's live CSS
+              via the Inspector and Style Editor tools.
+            </li>
+            <li>
+              The Web Developer extension for Firefox lets you track and edit
+              live CSS on watched sites.
+            </li>
+          </ul>
+        </section>
+
+        <section class="main-section" id="Meta_bugs">
+          <header>
+            <h2>Meta bugs</h2>
+          </header>
+
+          <ul class="mt-24" id="ul-lists">
+            <li class="first-li">Firefox: Firefox bug 1323667</li>
+          </ul>
+        </section>
+
+        <section class="main-section" id="See_also">
+          <header>
+            <h2>See also</h2>
+          </header>
+
+          <ul class="mt-24" id="ul-lists">
+            <li>
+              CSS demos: Get a creative boost by exploring examples of the
+              latest CSS technologies in action.
+            </li>
+            <li>
+              Web languages to which CSS is often applied: HTML, SVG, MathML,
+              XHTML, and XML.
+            </li>
+            <li>Stack Overflow questions about CSS</li>
+          </ul>
+
+          <div class="rect mt-24">
+            <h3>Found a content problem with this page?</h3>
+
+            <ul class="mt-24" id="ul-lists">
+              <li>
+                CSS demos: Get a creative boost by exploring examples of the
+                latest CSS technologies in action.
+              </li>
+              <li>
+                Web languages to which CSS is often applied: HTML, SVG, MathML,
+                XHTML, and XML.
+              </li>
+              <li>Stack Overflow questions about CSS</li>
+            </ul>
+
+            <p class="mt-24">
+              Want to get more involved? Learn how to contribute.
+            </p>
+            <p class="mt-24">
+              This page was last modified on Jan 30, 2024 by MDN contributors.
+            </p>
+          </div>
+        </section>
+
+        <p class="last-p">
+          All the documentation on this page except for
+          <a href="#CSS_Examples">CSS Examples</a> section is taken from
+          <a
+            target="_blank"
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            >MDN</a
+          >
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

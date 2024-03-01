@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Poppins, sans-serif;
+  font-size: 18px;
+  letter-spacing: 0.5px;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  background-color: #e84545;
+  color: #f0f0f0;
+}
+
+.header h1,
+.header p {
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 3.052rem;
+  padding: 24px 0 12px 0;
+}
+
+.header p {
+  font-size: 1rem;
+  padding: 0 0 12px 0;
+}
+
+/* section.hero - Hero Area*/
+#img-div {
+  margin: 0 auto;
+  padding: 32px 0;
+  max-width: 1000px;
+}
+
+#image {
+  width: 90%;
+  max-width: 100%;
+  display: block;
+
+  margin: 0 auto;
+  object-fit: cover;
+  border-radius: 16px;
+}
+
+#img-div #img-caption {
+  text-align: center;
+  margin: 4px 0 0 0;
+  padding: 0;
+
+  color: #222222;
+}
+
+/* section#tribute-info - Wanted Poster */
+section#tribute-info .container {
+  width: 100%;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px 0 64px 0;
+}
+
+section#tribute-info .container h2 {
+  text-align: center;
+  font-size: 2.441rem;
+  margin: 0 0 32px 0;
+
+  color: #222222;
+}
+
+section#tribute-info .poster-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  gap: 64px;
+}
+
+section#tribute-info .poster-container .poster {
+  width: 220px;
+  height: 320px;
+  overflow: hidden;
+
+  box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, 0.5);
+}
+
+section#tribute-info .poster-container img {
+  width: 220px;
+  height: 320px;
+}
+section#tribute-info .poster-container .poster:hover {
+  transform: scale(1.1);
+}
+
+section#tribute-info .container p {
+  text-align: center;
+  margin: 64px 0 0 0;
+  font-size: 1.2rem;
+
+  font-weight: 600;
+}
+
+section#tribute-info .container p a {
+  color: #e84545;
+}
