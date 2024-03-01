@@ -206,7 +206,7 @@ ul > li > .dark-mode-toggle-label:hover {
 .welcome-section {
   width: 100%;
   max-width: 1280px;
-  height: 720px;
+  height: 534px;
   text-align: center;
 
   margin: 0 auto;
@@ -218,7 +218,8 @@ ul > li > .dark-mode-toggle-label:hover {
 .text-container {
   width: 50%;
   height: max-content;
-  margin: 0 24px 0 24px;
+  padding-left: 80px;
+  margin-top: -80px;
 }
 
 .text-container > .before-name {
@@ -278,11 +279,13 @@ ul > li > .dark-mode-toggle-label:hover {
 
 .welcome-section > .image-container {
   width: 50%;
+  min-width: 350px;
   height: max-content;
+  padding-bottom: 40px;
 }
 
 .image-container > svg {
-  width: 100%;
+  width: 80%;
 }
 
 /* PROJECT SECTION */
@@ -291,6 +294,7 @@ ul > li > .dark-mode-toggle-label:hover {
   padding: 88px 0 88px 0;
   background-color: #f9f9fa;
   position: relative;
+  box-shadow: 0 -8px 8px 0 rgba(64, 162, 227, 0.2);
 }
 
 .projects > .project-container {
@@ -603,11 +607,6 @@ form .name, .email-phone{
     width: 100vw;
     height: 64px;
     border-radius: unset;
-  }
-
-  .navbar > .logo {
-    width: max-content;
-    margin: 0 auto;
   }
 
   .navbar > ul {
