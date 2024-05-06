@@ -28,16 +28,13 @@
       </section>
 
       <section id="pokemon-stats">
-        <aside id="pokemon">
+        <aside class="pokemon">
           <div class="top">
             <div>
-              <span id="pokemon-name"></span>
-              <span id="pokemon-id"></span>
+              <span id="pokemon-name" class="name-id"></span>
+              <span id="pokemon-id" class="name-id"></span>
             </div>
-            <div>
-              <span id="weight"></span>
-              <span id="height"></span>
-            </div>
+            <div><span id="weight"></span><span id="height"></span></div>
           </div>
 
           <div id="sprite-wrapper"></div>
@@ -45,44 +42,51 @@
           <div id="types" class="bottom"></div>
         </aside>
 
-        <aside id="stats">
+        <aside class="stats">
           <table>
             <thead>
               <tr>
-                <th><b>Base</b></th>
-                <th><b>Stats</b></th>
+                <th>Base</th>
+                <th>Stats</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td>HP:</td>
-                <td id="hp"></td>
+                <td id="hp">...</td>
               </tr>
               <tr>
                 <td>Attack:</td>
-                <td id="attack"></td>
+                <td id="attack">...</td>
               </tr>
               <tr>
                 <td>Defense:</td>
-                <td id="defense"></td>
+                <td id="defense">...</td>
               </tr>
               <tr>
                 <td>Special Attack:</td>
-                <td id="special-attack"></td>
+                <td id="special-attack">...</td>
               </tr>
               <tr>
                 <td>Special Defense:</td>
-                <td id="special-defense"></td>
+                <td id="special-defense">...</td>
               </tr>
               <tr>
                 <td>Speed:</td>
-                <td id="speed"></td>
+                <td id="speed">...</td>
               </tr>
             </tbody>
           </table>
         </aside>
       </section>
     </main>
+
+    <footer>
+      <div class="text-container">
+        <hr />
+        <p>Made by Rifki Muhazzar.</p>
+      </div>
+    </footer>
 
     <script src="./script.js"></script>
   </body>

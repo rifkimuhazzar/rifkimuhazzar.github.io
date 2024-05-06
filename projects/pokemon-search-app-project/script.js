@@ -16,7 +16,7 @@ const speedTd = document.getElementById("speed");
 const pokemonAPI = "https://pokeapi-proxy.freecodecamp.rocks/api/pokemon/";
 
 const isInputValid = (input) => {
-  const regex = /^([a-z]+|\d+)$/i;
+  const regex = /^([a-z]+|[a-z]+-[a-z]|\d+)$/i;
   return regex.test(input);
 };
 
@@ -25,7 +25,7 @@ const fetchData = async () => {
 
   if (!isInputValid(inputValue)) {
     alert(
-      "Input tidak boleh kosong dan hanya boleh berisi huruf saja atau angka saja."
+      "The input cannot be empty and can only contain letters with/wthout dashed or numbers"
     );
     return;
   }
@@ -67,11 +67,15 @@ const updateUI = (data) => {
   pokemonNameSpan.textContent = name.toUpperCase();
   pokemonIdSpan.textContent = `#${id}`;
   weightSpan.textContent = `Weight: ${weight}`;
+  weightSpan.classList.add("weight-height");
   heightSpan.textContent = `Height: ${height}`;
+  heightSpan.classList.add("weight-height");
   spriteWrapperDiv.innerHTML = `<image id="sprite" src="${front_default}">`;
 
   types.forEach((item) => {
-    typesDiv.innerHTML += `<span class="type">${item.type.name.toUpperCase()}</span>`;
+    typesDiv.innerHTML += `<span class="type ${
+      item.type.name
+    }">${item.type.name.toUpperCase()}</span>`;
   });
 
   stats.forEach((item) => {
